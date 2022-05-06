@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.my__wallet{
+    padding: 20px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    border-right: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: rotate(20deg);
+}
+
+
+.my__wallet:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.sectionOne__container{
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+
+.hero__titles{
+    width: 550px;
+    padding: 20px;
+}
+
+.hero__big_title{
+    font-size: 70px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+}
+
+.big__star{
+    font-size: 80px;
+}
+
+.small__star{
+    font-size: 40px;
+}
+
+.hero__small_title{
+    font-family: 'Abel', sans-serif;
+    font-weight: 300;
+    color: gray
+}
+
+.numbers{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.n{
+    display: flex;
+    flex-direction: column;
+}
+
+.t{
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.nums{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 550;
+}
+
+.explore{
+    padding: 20px;
+    font-size: 17px;
+    width: 130px;
+    font-weight: bold;
+    border: 1.5px solid black;
+    box-shadow: -10px 10px 1px black;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 20px;
+}
+
+.explore:hover{
+    background: black;
+    color: white;
+    box-shadow: none;
+}
+
+.sectiononecards__cardOne{
+    border: 1.5px solid black;
+    padding: 0 20px;
+    transform: rotate(10deg);
+    box-shadow: -30px 30px 1px black;
+    cursor: pointer;
+}
+
+.sectiononecards__cardOne-titles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.sectiononecards__cardOne-tag{
+    color: gray;
+    font-family: 'Secular One', sans-serif;
+}
+
+.sectiononecards__cardOne-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.sectiononecards__cardOne-price{
+    margin: 20px;
+}
+
+
+
+.sectionTwo{
+    margin: 50px;
+}
+
+.sectionTwo__titles{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.sectionTwo__titles-big-title{
+    font-size:35px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+}
+
+.sectionTwo__titles-small-title{
+    font-family: 'Abel', sans-serif;
+    font-weight: 800;
+    color: gray
+}
+
+.stbtn{
+    padding: 10px 20px;
+    border: 1.5px solid black;
+    border-radius: 40px;
+    font-weight: bold;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.stbtn:hover{
+    background: black;
+    color: white;
+}
+
+.collectibles{
+    background: black;
+    color: white;
+}
+
+.sectionTwo__buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.sectionTwo__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px 0;
+    margin-top: 20px
+}
+
+.card{
+    border: 1.5px solid black;
+    cursor: pointer;
+    width: 400px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: -20px 20px 1px black;
+}
+
+.sectionTwo__cards-titles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionTwo__cards-tag{
+    color: gray;
+    font-family: 'Secular One', sans-serif;
+}
+
+.sectionTwo__cards-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.sectionTwo__cards-price{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardOne{
+    box-shadow: -20px 20px 1px black;
+}
+.collect__now{
+    padding: 15px 140px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    border: 1.5px solid black;
+    transition: all 0.3s ease-in-out;
+}
+
+.collect__now:hover{
+    background: white;
+    color: black;
+   
+}
+
+
+.sectionThree{
+    margin: 50px;
+}
+
+.sectionThree__titles{
+    padding: 20px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.sectionThree__titles-big-title{
+    font-size:35px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+}
+
+.sectionThree__titles-small-title{
+    font-family: 'Abel', sans-serif;
+    font-weight: 800;
+    color: gray;
+    margin-top: 10px;
+}
+
+.sthbtn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    background: white;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.lg{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.sthbtn_titles{
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.btn__small-title{
+    color: gray;
+    font-weight: 400;
+    align-self: flex-end;
+    
+}
+
+.sectionThree__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionFour__titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sectionFour__titles-big-title{
+    font-size:35px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 500;
+    margin-top:20px;
+}
+
+.ca{
+    border: 1.5px solid black;
+    width: 350px;
+    height: 330px;
+    padding: 50px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.sectionFour__cards-cardOne-title{
+     margin-top: 50px;
+}
+
+.sectionFour__cards-cardOne-p{
+    font-family: 'Abel', sans-serif;
+    color: gray;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.sectionFour__cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 20px;
+}
+
+.sectionFour__cards-cardOne-number{
+    background: black;
+    color: white;
+    border-radius: 100%;
+    padding: 10px 17px;
+}
+
+
+.notif{
+    background: black;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+    margin-top: 150px;
+}
+
+.launch{
+    background: white;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    box-shadow: -10px 10px 1px black, 
+    -12px 12px 1px white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.launch:hover{
+    box-shadow: none;
+}
+
+.brgr{
+    display: none;
+    font-size: 25px;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 1000px) {
+    .sectionTwo__buttons{
+        flex-wrap: wrap;
+        gap: 10px
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header{
+        justify-content: space-between;
+    }
+    ul{
+        display: none;
+    }
+    .my__wallet{
+        display: none
+    }
+    .brgr{
+        display: block;
+    }
+    .sectionOne__container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero__big_title{
+        font-size: 30px;
+    }
+    .hero__small_title{
+        font-size: 20px;
+    }
+    .big__star{
+        display: none;
+    }
+    .small__star{
+        display: none;
+    }
+    .sectiononecards__cardOne-tag{
+        font-size: 20px;
+    }
+    .sectiononecards__cardOne-price{
+        font-size: 20px;
+    }
+    .sectiononecards__cardOne-title{
+        font-size: 30px;
+    }
+    .sectiononecards__cardOne{
+        padding: 15px
+    }
+    .sectionTwo__titles{
+        text-align: center;
+        flex-direction: column;
+    }
+    .notif{
+        flex-direction: column;
+    }
+    .join{
+        font-size: 25px;
+    }
+    .launch{
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hero__big_title{
+        font-size: 20px;
+    }
+    .hero__small_title{
+        font-size: 15px;
+    }
+    .explore{
+        width: 230px;
+    }
+    .numbers{
+        width: 90%;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .nums{
+        font-size: 25px;
+    }
+    .t{
+        font-size: 10px;
+    }
+    .collect__now{
+        padding: 15px 70px;
+    }
+}
